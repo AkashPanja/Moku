@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <!--    Launch Screen   -->
+    <color name="colorLaunchScreenPrimary">#f5f5f5</color>
+    <color name="colorLaunchScreenPrimaryDark">#33C3B0</color>
+    <color name="colorLaunchScreenAccent">#f5f5f5</color>
+
+    <color name="colorLaunchScreenNav">#33C3B0</color>
+    <color name="colorLaunchScreenBackground">#33C3B0</color>
+
+    <!--    Main Activity   -->
+    <color name="colorMainActivityPrimary">#f5f5f5</color>
+    <color name="colorMainActivityAccent">#f5f5f5</color>
+    <color name="colorMainActivityPrimaryDark">#33C3B0</color>
+
+    <color name="colorMainActivityNav">#33C3B0</color>
+    <color name="colorMainActivityBackground">#33C3B0</color>
+
+    <!--    Action Bar Color    -->
+    <color name="actionBarBackground">#f0f0f0</color>
+    <color name="actionBarTitleTextColor">#a1a1a1</color>
+    <color name="hamIcon">#617d8a</color>
+</resources>
