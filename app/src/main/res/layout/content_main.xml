@@ -20,6 +20,7 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <TextView
                 android:paddingBottom="10dp"
                 android:id="@+id/TitleLibrary"
@@ -27,49 +28,66 @@
                 android:text="Library"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
-            <EditText
-                android:focusable="false"
-                android:drawableTop="@drawable/border"
-                android:drawableBottom="@drawable/border"
+
+            <Button
+                android:paddingTop="10dp"
+                android:textAllCaps="false"
+                android:gravity="left|center_vertical"
                 android:textColor="#e71d6a"
                 android:id="@+id/LibraryPlaylist"
                 android:textSize="25dp"
-                android:text="Playlist"
+                android:text="@string/playlist"
+                android:background="@drawable/libray_option"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
 
-            <EditText
-                android:focusable="false"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
+            <Button
+                android:paddingTop="10dp"
+                android:textAllCaps="false"
+                android:gravity="left|center_vertical"
                 android:textColor="#e71d6a"
                 android:id="@+id/LibraryAlbum"
                 android:textSize="25dp"
-                android:text="Album"
+                android:text="@string/album"
+                android:background="@drawable/libray_option"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
 
-            <EditText
-                android:focusable="false"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
+            <Button
+                android:paddingTop="10dp"
+                android:textAllCaps="false"
+                android:gravity="left|center_vertical"
                 android:textColor="#e71d6a"
                 android:id="@+id/LibraryArtist"
                 android:textSize="25dp"
-                android:text="Artist"
+                android:text="@string/artist"
+                android:background="@drawable/libray_option"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
 
-            <EditText
-                android:focusable="false"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
+            <Button
+                android:paddingTop="10dp"
+                android:textAllCaps="false"
+                android:gravity="left|center_vertical"
                 android:textColor="#e71d6a"
                 android:id="@+id/LibrarySongs"
                 android:textSize="25dp"
-                android:text="Songs"
+                android:text="@string/songs"
+                android:background="@drawable/libray_option"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+
+
+            <TextView
+                android:fontFamily="@font/product_sans_regular"
+                android:paddingBottom="10dp"
+                android:id="@+id/TitleRecentlyAdded"
+                android:textSize="30dp"
+                android:text="@string/recently_added"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
         </LinearLayout>
     </ScrollView>
 

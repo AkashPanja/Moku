@@ -39,7 +39,6 @@ public class Launch_Screen extends AppCompatActivity {
         FontManager fontManager=new FontManager(this.getApplicationContext());
 
         title=(TextView) findViewById(R.id.launchScreenTitle);
-        title.setTypeface(FontManager.getProductIcon());
 
     }
 

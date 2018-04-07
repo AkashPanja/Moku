@@ -11,6 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.TextView;
 
 import io.github.akashpanja.moku.R;
@@ -23,8 +24,11 @@ public class MainActivity extends AppCompatActivity {
     private NavigationView nvDrawer;
     private ActionBarDrawerToggle drawerToggle;
 
-//    Content Main
+    //Content Main
     TextView TitleLibrary,TitleBar;
+
+    //Library
+    Button LibraryPlaylist,LibraryAlbum,LibraryArtist,LibrarySongs;
 
 
     @Override
@@ -42,14 +46,17 @@ public class MainActivity extends AppCompatActivity {
                 this, mDrawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         mDrawer.addDrawerListener(drawerToggle);
         drawerToggle.syncState();
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
 
 //        Content Main
         TitleLibrary=(TextView)findViewById(R.id.TitleLibrary);
-        TitleBar=(TextView)findViewById(R.id.toolbar_title);
 
-        TitleBar.setTypeface(FontManager.getProductIcon());
-        TitleLibrary.setTypeface(FontManager.getProductIcon());
+
+        //Library
+        LibraryPlaylist=(Button)findViewById(R.id.LibraryPlaylist);
+        LibraryAlbum=(Button)findViewById(R.id.LibraryAlbum);
+        LibraryArtist=(Button)findViewById(R.id.LibraryArtist);
+        LibrarySongs=(Button)findViewById(R.id.LibrarySongs);
+
     }
 
 }
